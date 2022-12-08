@@ -1,0 +1,716 @@
+@charset "utf-8";
+body{
+    background-color: rgb(255, 196, 109);
+    width: 100%;
+}
+#body_t{
+    width: 1500px;
+}
+
+/* header 시작 */
+header{
+    position: relative;
+    width: 100%;
+    height: 148px;
+    background: rgb(255, 205, 132);
+    z-index: 60;
+}
+
+header h1{
+    position:relative;
+    margin: 0 auto;
+    top: 20px;
+    left: 230px;
+    width: 80px;
+    height: 40px;
+}
+
+header #util{
+    position: absolute;
+
+    top: 43px;
+    left:1260px;
+    width: 400px;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+
+  
+}
+header #util::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+header #util li{
+    float: left;
+    margin-right: 10px;
+}
+.sbtn{
+    width: 20px;
+}
+header form{
+    position: absolute;
+    right: 40px;
+}
+header form legend{
+    display: none;
+    top:20px
+}
+fieldset{
+    position: relative;
+    top:35px;
+}
+
+#navi{
+    position: relative;
+    width: auto;
+    height: 40px;
+}
+#navi nav{
+    position: absolute;
+    width: 1700px;
+    height: 40px;
+    margin: 0 auto;
+    top: 68px;
+    left: 117px;
+    /* border: 1px solid black; */
+}
+#navi nav ul li{
+    width: 20%;
+    height: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 18px;
+    float: left;
+    text-align: center;
+    z-index: 5000px;
+}
+#navi nav ul li.v{
+    background-color: rgb(rgb255, 202, 124);
+}
+#navi nav ul li.b{
+    background-color: rgb(255, 196, 109);
+}
+
+#navi nav ul li.c{
+    background-color: rgb(255, 188, 89);
+}
+
+#navi nav ul li.d{
+    background-color: rgb(255, 182, 74);
+}
+
+#navi nav ul li.e{
+    background-color:rgb(255, 172, 49);
+}
+
+
+/* contents 시작 */
+#contents{
+    position: relative;
+    width: 1500px;
+    left: 240px;
+    top: 10px;
+    height: 599px;
+}
+#contents #inner{
+}
+#contents #slide_area{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+   /* sadborder: 1px solid black; */
+   overflow: hidden;
+}
+#contents #slide_area ul{
+    width: 400%;
+    height: 550px;
+}
+#contents #slide_area ul li{
+    width: 25%;
+    height: 550px;
+    float: left;
+}
+#contents #slide_area ul li img{
+    width:  100%;
+    height: 600px;
+ 
+}
+#slide1 img{
+    border:none;
+
+}
+#contents #slide_area ul #slide1 .tit_text{
+    position: absolute;
+    right: 15%;
+    top: 50px;
+    font-size: 4em;
+    font-weight: bold;
+    color: black;
+    /* border: 1px solid black; */
+}
+#contents #slide_area p{
+    position: absolute;
+    font-size: 1.7em;
+    font-family: "NGothicEB",Gulim;
+    display: block;
+    right: 10%;
+    width: 300px;
+    height: 50px;
+    top:200px;
+    color: black;
+    
+}
+  #contents #si_g{
+    position: absolute;
+    font-size: 2em;
+    right: 300px;
+    top: 360px;
+    
+}
+#contents #si_g span{
+    display: block;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 155px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(171, 174, 177);
+}
+
+#contents #slide_list {
+    position: relative;
+    left: -95px;
+}
+
+#contents #slide_list li{
+    position: relative;
+    margin: 0 auto;
+    top: -70px;
+    left: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 15px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#contents #slide_list li:nth-child(2){
+    background-color: aqua;
+}
+
+/* review_area 시작 */
+#review_area{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 400px;
+    /* border: 1px solid black; */
+}
+#best_review{
+    position: relative;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+#best_review h3{
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    font-size: 3em;
+}
+#best_review .q{
+    position: relative;
+    display: block;
+    top: 150px;
+}
+#best_review .i1{
+    left: 110px;
+    top:140px;
+}
+#best_review .i2{
+    top: -8px;
+    left: 430px;
+}
+#best_review .i3{
+    left: 750px;
+    top:-210px;
+}
+#best_review .y{
+    position: relative;
+    display: block;
+    top: 550px;
+}
+
+/*크기*/
+.i1,.i2,.i3,.i4,.i5,.i6{
+    width:300px;
+    height: 200px;
+}
+
+.i1 img{
+    width:300px;
+    height: 225px;
+}
+#best_review .i4{
+    left: 115px;
+    top:-100px;
+}
+#best_review .i5{
+    left: 435px;
+    top:-300px;
+}
+#best_review .i6{
+    left: 755px;
+    top:-500px;
+}
+#best_review .br_ti{
+    display: block;
+    text-align: center;
+    font-weight: bold ;
+    font-size: 17px;
+    margin-top: 10px;
+}
+/* #best_review .i7{
+    left: 115px;
+    top:150px;
+} */
+
+
+#best_review #arrow a.prev{
+    position:absolute;
+    left: 50px;
+    top: 300px;
+    display: none;
+}
+#best_review #arrow a.next{
+    position: absolute;
+    right: 485px;
+    top: 300px;
+    display: none;
+}
+
+
+
+
+#review_area #new_review{
+  position: relative;
+  right: 40px;
+  top: 50px;
+  width: 25%;
+  height: auto;
+  /* border: 1px solid black; */
+}
+#nw li{
+    float: left;
+}
+
+#review_area #new_review h3{
+    position: absolute;
+    top: -420px;
+    left: 370px;
+    text-align: center;
+    display: block;
+    width: 500px;
+    font-size: 3em;
+}
+#review_area #new_review ul{
+    width: 1400px;
+    height: auto;
+    position: relative;
+    top :-300px;
+    left: 0px;
+    }
+
+#review_area #new_review ul li{
+    position: relative;
+ 
+    float: left;
+}
+#review_area #new_review li{
+
+    border-radius: 5px;
+}
+#review_area #new_review img{
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    margin: 10px 20px 10px;
+}
+#review_area #new_review strong{
+    position: relative;
+    top: 20px;
+    left: -20px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#review_area #new_review .time{
+    position: relative;
+    margin: 0 auto;
+    right: -80px;
+    bottom: 70px;
+    font-size: large;
+    display: block;
+    width: 100px;
+    height: 20px;
+    color: rgb(106, 104, 104);
+    /* border: 1px solid black; */
+}
+#event{
+    position: relative;
+    width: 100%;
+}
+#event h3{
+    position:absolute;
+    top:20px;
+    left: 740px;
+    text-align: center;
+    display: block;
+    width: 500px;
+    font-size: 3em;
+}
+
+#event #box1{
+    position: relative;
+    top: 350px;
+    left: 100px;
+    border-radius: 30px;
+    /* border: 1px solid black; */
+}
+#event #box1{
+    position: relative;
+    left:350px;
+    
+    top:-30px;
+}
+ #event #box2{
+    position: relative;
+    right: 100px;
+    top:-90px;
+}
+#event #box3{
+    position: relative;
+    right:-1050px;
+    top:-403px;
+}
+#event #box4{
+    position: relative;
+    left:1400px;
+    top:-716px;
+} 
+
+
+#event #box1 img{
+   border-radius: 30px;
+}
+#event #box2 img{
+    border-radius: 30px;
+}
+#event #box3 img{
+    border-radius: 30px;
+}
+#event #box4 img{
+    border-radius: 30px;
+}
+#event .ev_text{
+    color: rgb(102, 10, 172);
+    font-size: 2.2em; 
+}
+#event .evt_text{
+    color: rgb(102, 10, 172);
+    font-size: 1.7em; 
+}
+
+#event .ev_button{
+    position:absolute;
+    right: 120px;
+    bottom: 140px;
+    display: block;
+    width: 170px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(3, 12, 46);
+    font-size: 1.7em;
+}
+#text1{
+
+    height: 500px;
+    position: relative;
+}
+#text2{
+    height: 500px;
+    position: relative;
+}
+#text3{
+    height: 500px;
+    position: relative;
+}
+#text4 {
+    height: 500px;
+    position: relative;
+}
+#text1 p{
+    position: relative;
+    color: rgb(80, 74, 74);
+    top: 50px;
+    font-size: 1.7em;
+    text-align: center;
+
+}
+#text2 p{
+    position: relative;
+    color: rgb(80, 74, 74);
+    top: 50px;
+    font-size: 1.7em;
+    text-align: center;
+
+}
+#text3 p{
+    position: relative;
+    color: rgb(80, 74, 74);
+    top: 50px;
+    font-size: 1.7em;
+    text-align: center;
+
+}
+#text4 p{
+    position: relative;
+    color: rgb(80, 74, 74);
+    top: 50px;
+    font-size: 1.7em;
+    text-align: center;
+
+}
+
+#text1 strong{
+    color: black;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#text2 strong{
+    color: black;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#text3 strong{
+    color: black;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#text4 strong{
+    color: black;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#text1 .ev_button1{
+    position: relative;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 2em;
+    top: 130px;
+    left: 75px;
+
+}
+#text2 .ev_button2{
+    position: relative;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 2em;
+    top: 130px;
+    left: 75px;
+}
+#text3 .ev_button3{
+    position: relative;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 2em;
+    top: 130px;
+    left: 75px;
+}
+#text4 .ev_button4{
+    position: relative;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 2em;
+    top: 130px;
+    left: 75px;
+}
+#up1{
+    visibility: hidden;
+}
+
+#event #box1 p{
+ 
+    /* border: 1px solid rgb(7, 44, 177); */
+
+}
+#event #box2{
+    position: relative;
+    left: 701px;
+    bottom: 245px;
+  
+    /* border: 1px solid black; */
+}
+
+#box1,#box2,#box3,#box4{
+    width:300px;
+    height:250px;
+ 
+
+}
+
+
+#event #up{
+    position: relative;
+    margin: 0 auto;
+    right: -1750px;
+    top: 0px;
+    
+}
+#event .s_all{
+    display: block;
+    width: 50px;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 120px;
+    top: 330px;
+}
+/*footer 시작*/
+footer{
+    position: relative;
+    width: 1920px;
+    height: 130px;
+    background-color:rgb(112, 112, 112);
+    border:1px solid black;
+}
+footer #ga{
+    position: relative;
+    height: 50px;
+    left: 150px;
+    top: 20px;
+    font-weight: bold;
+    font-size: 2em;
+    color: #fff;
+}
+footer ul{
+    position: absolute;
+    left: 500px;
+    top: 20px;
+}
+footer ul li{
+    float: left;
+    padding: 5px 50px 5px 50px;
+}
+footer ul li p{
+    font-size: 1.3em;
+    color: #fff;
+}
+footer select{
+    position: absolute;
+    right: 100px;
+    font-size: 1.2em;
+    top: 20px;
+    width: 190px;
+}
+footer address{
+    position: relative;
+    top: 50px;
+    left: -750px;
+    display: block;
+}
+footer address p{
+    position: relative;
+    bottom: 30px;
+    left: 50;
+    text-align: center;
+    color: #fff;
+}
+footer #tema_a{
+    position: absolute;
+    top: 60px;
+    width: 200px;
+    display: inline block;
+}
+footer #tema_a a{
+    color: #fff;
+}
+footer #rank_a{
+    position: absolute;
+    left: 330px;
+    top: 60px;
+    width: 200px;
+    display: inline block;
+}
+footer #rank_a a{
+    color: #fff;
+}
+footer #ad_a{
+    position: absolute;
+    left: 460px;
+    top: 60px;
+    width: 200px;
+    display: inline block;
+}
+footer #ad_a a{
+    color: #fff;
+}
+footer #my_a{
+    position: absolute;
+    left: 600px;
+    top: 60px;
+    width: 200px;
+    display: inline block;
+}
+footer #my_a a{
+    color: #fff;
+}
+footer #qa_a{
+    position: absolute;
+    left: 770px;
+    top: 60px;
+    width: 200px;
+    display: inline block;
+}
+footer #qa_a a{
+    color: #fff;
+}
+footer #site_a{
+    position: absolute;
+    top: 60px;
+    left: 1240px;
+}
+footer .stt{
+    position: relative;
+}
+footer .stt a{
+    position: absolute;
+    left: 0;
+   text-align: center;
+   border: 1px solid black;
+}
